@@ -11,8 +11,8 @@ def absolute_value():
    try:
     if float(n):
         n = float(n)
-    elif int(n):
-        n = int(n)
+    elif int(n):#mai mult educativ, putem sa testam direct pentru complex
+        n = int(n)#(complex contine si float si int, ca la matematica)
     elif complex(n):
         n = complex(n)
     print(abs(n))
